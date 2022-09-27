@@ -16,6 +16,7 @@
 在`awesome/plugins/qiangda.py`中修改以上两个值
 
 - 修改学习通信息
+
 在刚才的登陆页面按F12查到自己的登陆的编码，这个变得难抓了，需要在点击登陆时看见`fanyalogin`这个post请求时按Ctrl+E锁住查看登陆form Data，并在`awesome/plugins/qiangda.py`中的`name_list`中修改`uname`和`password`。
 
 - 抢答次数
