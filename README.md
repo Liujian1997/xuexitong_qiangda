@@ -8,9 +8,11 @@
 ### 使用设置
 
 - 修改机器人账号密码
+
 在`go-cqhttp/config.yml`文件中修改`uin`和`password`即可
 
 - 修改需要抢答的课程信息
+
 在[学习通](http://i.chaoxing.com/base?t=1640184447606)登陆并进入需要抢答的课程，此时在URL中可以看到此课程的`courseId`和`classId`
 
 在`awesome/plugins/qiangda.py`中修改以上两个值
