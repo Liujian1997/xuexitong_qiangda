@@ -1,0 +1,266 @@
+[2021-12-24 17:23:40] [WARNING]: 虚拟设备信息不存在, 将自动生成随机设备. 
+[2021-12-24 17:23:47] [WARNING]: 登录需要滑条验证码, 请使用手机QQ扫描二维码以继续登录. 
+[2021-12-24 17:24:05] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:09] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:10] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 17:24:12] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 17:24:13] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:15] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 17:24:17] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:18] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 17:24:20] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 17:24:21] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:25] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:26] [WARNING]: 处理事件 map[interval:5000 meta_event_type:heartbeat post_type:meta_event self_id:3159838307 status:map[app_enabled:true app_good:true app_initialized:true good:true online:true plugins_good:<nil> stat:0xc0005b8018] time:1640337849] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 246 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd2f940, 0x13cf050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc0000600f0, 0x7101b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc000254310)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-24 17:24:27] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 17:24:29] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:29] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 17:24:30] [WARNING]: 警告: 本地连接聊天服务器丢包率为 100%, 可能出现消息丢失/延迟或频繁掉线等情况, 请检查本地网络状态. 
+[2021-12-24 17:24:33] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 17:24:33] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:36] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 17:24:37] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:38] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 17:24:41] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:43] [WARNING]: 处理事件 map[interval:5000 meta_event_type:heartbeat post_type:meta_event self_id:3159838307 status:map[app_enabled:true app_good:true app_initialized:true good:true online:true plugins_good:<nil> stat:0xc0005b8018] time:1640337866] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 279 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd2f940, 0x13cf050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc0000600f0, 0x7101b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc000254310)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-24 17:24:44] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 17:24:45] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 17:24:46] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 17:24:59] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": read tcp 127.0.0.1:5816->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 将进行第 1 次重试 
+[2021-12-24 17:25:09] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": EOF 将进行第 1 次重试 
+[2021-12-24 17:25:24] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": read tcp 127.0.0.1:5834->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 将进行第 1 次重试 
+[2021-12-24 17:25:34] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": read tcp 127.0.0.1:5859->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 将进行第 1 次重试 
+[2021-12-24 17:25:44] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": EOF 将进行第 1 次重试 
+[2021-12-24 17:25:54] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": EOF 将进行第 1 次重试 
+[2021-12-24 17:26:04] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": read tcp 127.0.0.1:5946->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 将进行第 1 次重试 
+[2021-12-24 17:26:14] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": EOF 将进行第 1 次重试 
+[2021-12-24 17:26:24] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": read tcp 127.0.0.1:5952->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 将进行第 1 次重试 
+[2021-12-24 17:26:34] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": EOF 将进行第 1 次重试 
+[2021-12-24 17:26:49] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": read tcp 127.0.0.1:5957->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 将进行第 1 次重试 
+[2021-12-24 17:26:59] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": read tcp 127.0.0.1:5963->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 将进行第 1 次重试 
+[2021-12-24 17:27:09] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": EOF 将进行第 1 次重试 
+[2021-12-24 17:27:29] [WARNING]: 上报 Event 数据到 http://127.0.0.1:8080/cqhttp/http 失败: Post "http://127.0.0.1:8080/cqhttp/http": read tcp 127.0.0.1:5993->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 将进行第 1 次重试 
+[2021-12-24 17:28:15] [WARNING]: 警告: 本地连接聊天服务器丢包率为 100%, 可能出现消息丢失/延迟或频繁掉线等情况, 请检查本地网络状态. 
+[2021-12-24 18:07:02] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:6036->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:07:04] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:6036->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:08:11] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:8926->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:08:14] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:8926->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:09:02] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:8985->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:09:04] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:8985->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:09:35] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:9105->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:09:39] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:9105->127.0.0.1:8080: use of closed network connection 
+[2021-12-24 18:10:58] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:9155->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:10:59] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:9155->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:13:30] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:11678->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:13:34] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:11678->127.0.0.1:8080: use of closed network connection 
+[2021-12-24 18:15:32] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:11788->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:15:34] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:11788->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:16:48] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:12048->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:16:49] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:12048->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:21:49] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:21:54] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:21:59] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:22:04] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:22:09] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:22:10] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:22:14] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:22:19] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:22:24] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:22:29] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:22:34] [WARNING]: 上报 Event 数据到 127.0.0.1:8080 时创建请求失败: parse "127.0.0.1:8080": first path segment in URL cannot contain colon 
+[2021-12-24 18:25:25] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:25:25] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:25:27] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:25:28] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:25:29] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 18:25:31] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 18:25:31] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 18:25:34] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 18:25:35] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 18:25:35] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 18:25:40] [WARNING]: 处理事件 map[interval:5000 meta_event_type:heartbeat post_type:meta_event self_id:3159838307 status:map[app_enabled:true app_good:true app_initialized:true good:true online:true plugins_good:<nil> stat:0xc000143b18] time:1640341524] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 181 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd2f940, 0x13cf050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc00008acd0, 0x7101b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc00008f1d0)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-24 18:25:41] [WARNING]: 处理事件 map[interval:5000 meta_event_type:heartbeat post_type:meta_event self_id:3159838307 status:map[app_enabled:true app_good:true app_initialized:true good:true online:true plugins_good:<nil> stat:0xc000143b18] time:1640341524] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 182 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd2f940, 0x13cf050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc00008ad20, 0x7101b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc00008f230)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-24 18:25:42] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:25:42] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:25:45] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:25:45] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:26:20] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:26:22] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:26:24] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 18:26:28] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 18:26:32] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 18:26:35] [WARNING]: 处理事件 map[interval:5000 meta_event_type:heartbeat post_type:meta_event self_id:3159838307 status:map[app_enabled:true app_good:true app_initialized:true good:true online:true plugins_good:<nil> stat:0xc000143b18] time:1640341579] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 185 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd2f940, 0x13cf050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc000304320, 0x7101b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc0002d02d0)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-24 18:26:36] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:26:38] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:26:40] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:26:40] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:26:42] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:26:42] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 18:26:43] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 18:26:45] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:26:46] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 18:26:46] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 18:26:47] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 18:26:48] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:26:49] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 18:26:49] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 18:26:50] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 18:26:50] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:26:51] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 18:26:52] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 18:26:52] [WARNING]: 处理事件 map[interval:5000 meta_event_type:heartbeat post_type:meta_event self_id:3159838307 status:map[app_enabled:true app_good:true app_initialized:true good:true online:true plugins_good:<nil> stat:0xc000143b18] time:1640341595] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 243 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd2f940, 0x13cf050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc000304320, 0x7101b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc0002d02d0)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-24 18:26:53] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:26:54] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2021-12-24 18:26:54] [WARNING]: 处理事件 map[font:0 message:[map[data:map[text:天气] type:text]] message_id:-2012463791 message_type:private post_type:message raw_message:天气 self_id:3159838307 sender:map[age:0 nickname:落 sex:unknown user_id:984558633] sub_type:friend target_id:3159838307 time:1640341597 user_id:984558633] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 252 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd2f940, 0x13cf050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc000304320, 0x7101b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc0002d02d0)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-24 18:26:54] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 18:26:55] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:26:56] [WARNING]: 处理事件 map[font:0 message:[map[data:map[text:天气] type:text]] message_id:285568235 message_type:private post_type:message raw_message:天气 self_id:3159838307 sender:map[age:0 nickname:落 sex:unknown user_id:984558633] sub_type:friend target_id:3159838307 time:1640341601 user_id:984558633] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 266 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd2f940, 0x13cf050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc000304320, 0x7101b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc0002d02d0)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-24 18:26:56] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2021-12-24 18:26:57] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 18:26:57] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 18:26:58] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2021-12-24 18:26:59] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 18:27:01] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2021-12-24 18:27:01] [WARNING]: 处理事件 map[font:0 message:[map[data:map[text:tq] type:text]] message_id:1711430781 message_type:private post_type:message raw_message:tq self_id:3159838307 sender:map[age:0 nickname:落 sex:unknown user_id:984558633] sub_type:friend target_id:3159838307 time:1640341607 user_id:984558633] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 284 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd2f940, 0x13cf050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc000304320, 0x7101b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc0002d02d0)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-24 18:27:03] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 18:27:04] [WARNING]: 上报 Event 数据到 http://127.0.0.1 失败: Post "http://127.0.0.1": dial tcp 127.0.0.1:80: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2021-12-24 18:36:17] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:1109->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:36:20] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:1109->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:41:23] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:1261->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:41:25] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:1261->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:41:29] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 18:41:33] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 18:57:30] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:1643->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:57:32] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:1643->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 18:57:36] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 19:02:41] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:2618->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 19:02:42] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:2618->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 19:02:46] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/cqhttp/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-24 19:08:18] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:3020->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-24 19:08:22] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:3020->127.0.0.1:8080: use of closed network connection 

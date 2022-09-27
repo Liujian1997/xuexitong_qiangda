@@ -1,0 +1,9 @@
+[2021-12-26 12:12:14] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/ws/ 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-26 12:12:18] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/ws/ 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-26 12:12:22] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/ws/ 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-26 12:12:26] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/ws/ 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-26 12:12:30] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/ws/ 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2021-12-26 12:16:43] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:13496->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-26 12:16:48] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:13496->127.0.0.1:8080: use of closed network connection 
+[2021-12-26 12:20:52] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:13977->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-12-26 12:20:53] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:13977->127.0.0.1:8080: wsasend: An existing connection was forcibly closed by the remote host. 
